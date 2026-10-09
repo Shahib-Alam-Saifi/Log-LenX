@@ -38,7 +38,14 @@ export const IncidentListItem: React.FC<IncidentListItemProps> = ({
             </span>
             <span aria-hidden="true" className="text-slate-600">·</span>
             <span className="font-mono text-slate-400 text-[11px]">{incident.id}</span>
-            {incident.isLikelyTrigger && (
+            {incident.status === 'resolved' ? (
+              <>
+                <span aria-hidden="true" className="text-slate-600">·</span>
+                <span className="text-emerald-400 font-semibold text-[11px] flex items-center gap-1 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20">
+                  ✓ Resolved
+                </span>
+              </>
+            ) : incident.isLikelyTrigger ? (
               <>
                 <span aria-hidden="true" className="text-slate-600">·</span>
                 <span className="text-rose-400 font-semibold text-[11px] flex items-center gap-1 bg-rose-500/10 px-1.5 py-0.5 rounded border border-rose-500/20">
@@ -46,7 +53,7 @@ export const IncidentListItem: React.FC<IncidentListItemProps> = ({
                   Root Trigger
                 </span>
               </>
-            )}
+            ) : null}
           </div>
 
           <div className="flex items-center gap-1.5 font-mono text-[11px] text-slate-400 tabular-nums">

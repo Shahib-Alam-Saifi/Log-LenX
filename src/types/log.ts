@@ -56,6 +56,16 @@ export interface Incident {
   variableSlots: VariableSlot[];
   timeBuckets: { time: string; count: number }[];
   suggestedMitigation: string[];
+  status?: 'active' | 'investigating' | 'mitigating' | 'resolved';
+  resolvedAt?: string;
+  resolvedBy?: string;
+  resolutionNotes?: string;
+  remediationLogs?: string[];
+  remediationMetrics?: {
+    metricName: string;
+    before: string;
+    after: string;
+  }[];
 }
 
 export interface ParseResult {
