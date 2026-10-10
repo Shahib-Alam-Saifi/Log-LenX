@@ -90,4 +90,4 @@ We welcome contributions from everyone!
 
 All ideas, suggestions, bug reports, and contributions are welcome!
 
-**Built by Team Hack Heist · Bosscoder School of Technology**
+**Built by Team - Hack Heist · Bosscoder School of Technology**
