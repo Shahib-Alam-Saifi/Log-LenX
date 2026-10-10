@@ -34,7 +34,7 @@ Log-LenX analyzes raw application logs and presents a clear incident overview wi
 ## Run Locally
 
 
-Open **https://log-len-x-git-main-editorxp1-alts-projects.vercel.app/** in your browser.
+Open **https://log-lenx.vercel.app** in your browser.
 
 ## Project Presentation
 
