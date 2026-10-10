@@ -1,6 +1,8 @@
 # Log-LenX
+<img width="1470" height="834" alt="image" src="https://github.com/user-attachments/assets/b8d60cef-0402-4426-8348-bf4efa13c5c8" />
 
 **Find the signal. Prioritize what matters.**
+
 
 Log-LenX is a log analysis and incident triage prototype created by **Team Hack Heist** for **BST Protothon 2026**. It helps developers turn large volumes of application logs into grouped, prioritized incidents for faster investigation.
 
